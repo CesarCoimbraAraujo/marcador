@@ -34,9 +34,6 @@ Para iniciar o sistema completo com Docker:
 # Entre na pasta raiz do projeto
 cd projeto-consultas
 
-#Inicialize os submodules
-git submodule update --init --recursive
-
 # Inicie os containers
 docker compose up -d --build
 
